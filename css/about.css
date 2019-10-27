@@ -1,0 +1,107 @@
+.nav{
+  position:absolute;
+  position:fixed;
+  top:0;
+  width:40%;
+  height:100%;
+  left:-30%;
+  transition-duration:1s;
+  transition-property:left;
+  z-index:1;
+
+}
+
+.nav:hover{
+  left:0%;
+}
+
+
+#navlist{
+  float:left;
+  width:75%;
+  height:100%;
+  background-color:rgba(0,0,0,0.50);
+}
+
+#navlist li{
+  list-style:none;
+  color:white;
+  font-size:2vw;
+  font-family: 'Montserrat';
+  text-transform: capitalize;
+  font-style: bold;
+  padding-top:5%;
+}
+
+#navlist ul{
+  padding-top:50%;
+  padding-left:10%;
+}
+
+#navlist a{
+  text-decoration:none;
+}
+#navlist a:visited{
+  color:white;
+}
+#navlist a:active{
+  color:white;
+}
+
+#navaccess{
+  float:right;
+  width:25%;
+  height:100%;
+}
+
+#navaccess p{
+  font-family: 'Montserrat';
+  font-size: 2vw;
+  text-transform: capitalize;
+  font-style: bold;
+  position:relative;
+  left:-25%;
+  top:45%;
+  bottom:0;
+  transform: rotate(270deg);
+  color:white;
+}
+
+  #perhaps h1{
+    text-align:center;
+    margin-top: 0;
+    padding-top: 0;
+    font-family:"Montserrat";
+}
+  #perhaps p{
+    text-align:center;
+    display:inline-block;
+    font-size: 20px;
+    color:rgb(0,0,0);
+    font-family: "Montserrat";
+
+  }
+
+  #perhaps{
+    width:40%;
+    text-align:center;
+    padding:5%;
+    position:relative;
+    margin: 0 auto;
+    left:0;
+    right:0;
+    background-color:rgb(230,230,250);
+    border-radius:30px;
+    font-family: "Montserrat";
+}
+
+#perhaps img{
+  width:20%;
+}
+
+#perhaps img:nth-child(1){
+  width: 20%;
+}
+body{
+  background-color: rgb(235, 235, 217)
+}
