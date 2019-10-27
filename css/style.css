@@ -65,6 +65,9 @@ p{
 #navlist a:active{
   color:white;
 }
+#navlist a:link{
+  color:white;
+}
 
 #navaccess{
   float:right;
